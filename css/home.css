@@ -1,0 +1,40 @@
+main{
+    height: 100%;
+}
+
+.main-section{
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.main-section__container{
+    padding: 1rem;
+    position: relative;
+    height: 100%;
+}
+
+.container__content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container__content p{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container__content a{
+    text-decoration: none;
+    color: lightgreen;
+    transition: 150ms ease-in-out;
+}
+
+.container__content a:hover{
+    font-size: 3rem;
+}
+.container__title{
+    margin-top: 10rem;
+}
