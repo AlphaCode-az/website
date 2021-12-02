@@ -73,6 +73,10 @@ ul{
     background-color: lightgreen;
 }
 
+.footer__title{
+    text-align: center;
+}
+
 .footer--button{
     text-align: center;
     width: max-content;
