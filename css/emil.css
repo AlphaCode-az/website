@@ -12,6 +12,10 @@ a :hover {
     border-radius: 5rem;
 }
 
+nav div a :hover {
+    border-radius: 0rem;
+}
+
 main {
     min-height: 100%;
     box-sizing: border-box;
