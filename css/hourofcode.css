@@ -7,3 +7,20 @@ main{
     background-color: whitesmoke;
 }
 
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container__content p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container__content a{
+    text-decoration: none;
+    color: lightgreen;
+}
