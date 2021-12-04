@@ -12,6 +12,10 @@ a :hover {
     border-radius: 5rem;
 }
 
+#logo :hover {
+    background-color: transparent !important;
+}
+
 nav div a :hover {
     border-radius: 0rem;
 }
