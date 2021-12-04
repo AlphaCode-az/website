@@ -7,3 +7,24 @@ main{
   background-color: whitesmoke;
 }
 
+section img {
+  float: left;
+  margin-left: 20%;
+  margin-top: 100px;
+  width: 255px;
+  height: 450px;
+}
+
+section div {
+  float: left;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 300px;
+  margin-left: 100px;
+  width: 35%;
+}
+
+footer {
+  clear: both;
+}
