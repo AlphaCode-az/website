@@ -23,14 +23,19 @@ main {
 }
 
 .title .img-container img {
-  height: 100%;
+  width: 100%;
+  height: max-content;
 }
 
 .title .img-container {
+  display: flex ;
   height: 300px;
+  width: 300px;
   border-radius: 16px;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: cover ;
+  justify-content: center;
+  align-items: center;
 }
 
 .title .text {
