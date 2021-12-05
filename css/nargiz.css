@@ -7,3 +7,20 @@ main{
     background-color: whitesmoke;
 }
 
+#photo {
+    float: left;
+    margin: 7.5rem;
+    margin-right: 2rem;
+    width: 294px;
+    height: 417.75px;
+}
+
+#bio {
+    float: left;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 6rem;
+    padding: 7.5rem;
+    width: 50%;
+} 
